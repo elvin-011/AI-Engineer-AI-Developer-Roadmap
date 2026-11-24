@@ -16,3 +16,14 @@ file =sys.stdout() means the output will be printed in the output terminal
 flush=false means by default no clear screen will be initialised
 
 """
+
+
+print("hello, \"friend\"")                    #to print a double quote inside a string we can use the escape character \ before the double quote   
+
+
+name = name.strip()                           #the strip() function removes unwanted whitespaces from the string
+print(f"hello,{name}")                      
+name = name.capitalize()                      #the capitalize() function capitalizes the first letter of the string and makes all other letters small
+print(f"hello,{name}")  
+name = name.title()                           #to capitalize the first letter of each words of a sentance         
+print(f"Hello, {name}")           
