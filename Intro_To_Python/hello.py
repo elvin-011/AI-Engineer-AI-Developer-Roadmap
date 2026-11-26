@@ -27,3 +27,10 @@ name = name.capitalize()                      #the capitalize() function capital
 print(f"hello,{name}")  
 name = name.title()                           #to capitalize the first letter of each words of a sentance         
 print(f"Hello, {name}")           
+
+#we can reduce the number of lines by concating functions into single line
+name = input("Enter you name:").strip().title()
+print(name)
+
+first,last = name.split(" ")                 #the split() function splits a string into a list of words based on the given seperator,by default it is space(" ")
+print(f"Hello, {first} {last}")              #printing the first and last name
